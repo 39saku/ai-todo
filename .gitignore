@@ -137,3 +137,11 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# OS 固有の不要ファイル
+.DS_Store
+Thumbs.db
+
+.env
+.env.local
+.env.*.local
